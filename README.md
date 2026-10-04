@@ -114,23 +114,23 @@ The application is deployed across two Availability Zones. If one EC2 instance b
 
 ### 1. ALB Application Test
 
-![ALB Application Test](screenshots/01-alb-application-test.png)
+![ALB Application Test](screenshots/ALB-Application-Test.png)
 
 ### 2. Auto Scaling Group
 
-![Auto Scaling Group](screenshots/02-auto-scaling-group.png)
+![Auto Scaling Group](screenshots/auto-scaling-group.png)
 
 Shows `q3-web-asg` with 2 instances, 2/2 healthy, and desired capacity of 2.
 
 ### 3. EC2 Instance Management
 
-![EC2 Instance Management](screenshots/03-ec2-instance-management.png)
+![EC2 Instance Management](screenshots/Instance-Replacement.png)
 
 Shows two EC2 instances as InService and Healthy across two Availability Zones.
 
 ### 4. Target Group Health
 
-![Target Group Health](screenshots/04-target-group-healthy.png)
+![Target Group Health](screenshots/Target-group-healthy.png)
 
 Shows 2 total targets, 2 healthy targets, and 0 unhealthy targets, with `q3-web-alb` attached.
 
